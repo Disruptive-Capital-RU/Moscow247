@@ -1,0 +1,94 @@
+/* San Francisco Pro Text Font Declarations */
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../fonts/SF-Pro-Text-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../fonts/SF-Pro-Text-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Global Font Override */
+body,
+.nav-link,
+.nav-item-title,
+.event-link,
+.footer-link,
+.social-footer-link,
+.footer-copyright-link,
+.paragraph-large,
+.title-paragraph,
+.home-3-contacts-paragraph,
+.home-3-history-text-wrap p,
+.home-3-about-card p,
+.home-3-event-card p,
+.news-text p,
+.home-3-department-name-wrap p,
+.population-text-wrap h3,
+.home-3-leadership-block-text-wrap p,
+.home-1-departments-title-wrapper p,
+.home-3-banner-text-wrap p,
+.home-3-about-title-wrap h6,
+.history-heading,
+.event-link,
+.nav-dropdown-link,
+.collection-nav-dropdown-link,
+.link-button,
+.secondary-button,
+.primary-button,
+.label,
+.footer-label,
+.footer-contact-link,
+.footer-copyright,
+.footer-rights {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Helvetica Neue", sans-serif !important;
+}
+
+/* Font Weight Adjustments */
+.nav-item-title,
+.event-link,
+.footer-link,
+.social-footer-link,
+.footer-copyright-link,
+.home-3-about-title-wrap h6,
+.history-heading,
+.event-link,
+.nav-dropdown-link,
+.collection-nav-dropdown-link,
+.link-button,
+.secondary-button,
+.primary-button,
+.label,
+.footer-label {
+  font-weight: 500 !important;
+}
+
+/* Font Size Adjustments */
+.paragraph-large,
+.title-paragraph,
+.home-3-contacts-paragraph,
+.home-3-history-text-wrap p,
+.home-3-about-card p,
+.home-3-event-card p,
+.news-text p,
+.home-3-department-name-wrap p,
+.population-text-wrap h3,
+.home-3-leadership-block-text-wrap p,
+.home-1-departments-title-wrapper p,
+.home-3-banner-text-wrap p {
+  font-size: 1.1em !important;
+  line-height: 1.5 !important;
+}

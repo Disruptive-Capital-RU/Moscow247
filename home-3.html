@@ -20,6 +20,63 @@
     />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
+    <style>
+      body,
+      body * {
+        font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, sans-serif !important;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      .nav-item-title,
+      .event-link,
+      .news-text a,
+      .nav-dropdown-toggle,
+      .nav-link,
+      .nav-item-title,
+      .home-3-banner-wrap h1,
+      .home-3-center-title-wrap h2,
+      .home-3-about-title-wrap h6,
+      .home-3-events-title h2,
+      .section-title-wrap h2,
+      .home-3-contacts-text-wrap h2,
+      .population-text-wrap h3 {
+        font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, sans-serif !important;
+        font-weight: 600 !important;
+        letter-spacing: -0.015em !important;
+      }
+      .nav-item-title,
+      .event-link,
+      .news-text a,
+      .nav-dropdown-toggle,
+      .nav-link {
+        font-weight: 500 !important;
+      }
+      .paragraph-large,
+      p,
+      .home-3-banner-text-wrap p,
+      .home-3-history-text-wrap p,
+      .home-3-contacts-paragraph,
+      .news-text p {
+        font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, sans-serif !important;
+        font-weight: 400 !important;
+        line-height: 1.5 !important;
+      }
+      .label,
+      .event-dates-wrap .label,
+      .home-3-department-info-wrap .label {
+        font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, sans-serif !important;
+        font-weight: 500 !important;
+        letter-spacing: 0.05em !important;
+      }
+    </style>
     <link
       href="https://cdn.prod.website-files.com/67a4c8dcc89e958da293d681/css/city-connect-wcopilot.webflow.c7e6bba5f.css"
       rel="stylesheet"
@@ -36,9 +93,8 @@
       WebFont.load({
         google: {
           families: [
-            "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic",
-            "Urbanist:300,regular,500",
-            "Spline Sans:300,regular,500",
+            "SF Pro Display:400,500,600,700",
+            "SF Pro Text:400,500,600,700",
           ],
         },
       });
@@ -1165,204 +1221,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
-      <div class="w-layout-blockcontainer base-container w-container">
-        <div class="home-2-departments-block">
-          <div
-            data-w-id="1637398f-ee9b-0ba9-f294-c1fad55bb1d3"
-            style="opacity: 0"
-            class="home-1-departments-title-wrapper"
-          >
-            <div class="label">Departments</div>
-            <div class="title-wrapper">
-              <h2>Our government is organized into several departments.</h2>
-              <p class="paragraph-large">
-                Our dedicated departments and staff are here to provide support,
-                resources, and solutions that meet the evolving needs of our
-                community.
-              </p>
-            </div>
-          </div>
-          <div
-            id="w-node-_1637398f-ee9b-0ba9-f294-c1fad55bb1db-a293d710"
-            data-w-id="1637398f-ee9b-0ba9-f294-c1fad55bb1db"
-            style="opacity: 0"
-            class="home-2-departments-button-wrap"
-          >
-            <a href="departments.html" class="secondary-button w-button"
-              >See more departments</a
-            >
-          </div>
-          <div id="w-node-_1637398f-ee9b-0ba9-f294-c1fad55bb1de-a293d710">
-            <div class="w-dyn-list">
-              <div
-                role="list"
-                class="home-3-departments-collection-list w-dyn-items"
-              >
-                <div role="listitem" class="w-dyn-item">
-                  <div
-                    data-w-id="1d75104e-5ef5-0ce3-2f30-913e6e4ac727"
-                    style="opacity: 0"
-                    class="home-3-department-card"
-                  >
-                    <div class="home-3-department-name-wrap">
-                      <div class="department-card-title">
-                        <div class="department-card-icon">
-                          <img
-                            src="images/67a4c8dcc89e958da293d6a9-67a61a516ec4d35771f58b3d_guidance_police.svg"
-                            loading="lazy"
-                            alt=""
-                          />
-                        </div>
-                        <a
-                          href="department-of-public-safety.html"
-                          class="event-link"
-                          >Public Safety</a
-                        >
-                      </div>
-                      <p>Manages police, fire, and emergency services.</p>
-                    </div>
-                    <div class="home-3-department-info-wrap">
-                      <div class="home-3-department-head-wrap">
-                        <div class="label">Head:</div>
-                        <a
-                          href="+1%20(800)%20123-4567.html"
-                          class="head-contact-link"
-                          >Michael Turner</a
-                        >
-                      </div>
-                      <div class="home-3-department-contact-wrapper">
-                        <div class="label">Phone:</div>
-                        <a
-                          href="tel:+1(800)123-4567"
-                          class="home-3-contact-link"
-                          >+1 (800) 123-4567</a
-                        >
-                      </div>
-                      <div class="home-3-department-contact-wrapper">
-                        <div class="label">Email:</div>
-                        <a
-                          href="mailto:information@office.com"
-                          class="home-3-contact-link"
-                          >information@office.com</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div role="listitem" class="w-dyn-item">
-                  <div
-                    data-w-id="1d75104e-5ef5-0ce3-2f30-913e6e4ac727"
-                    style="opacity: 0"
-                    class="home-3-department-card"
-                  >
-                    <div class="home-3-department-name-wrap">
-                      <div class="department-card-title">
-                        <div class="department-card-icon">
-                          <img
-                            src="images/67a4c8dcc89e958da293d6a9-67a61a44087839912be9337f_solar_city-outline.svg"
-                            loading="lazy"
-                            alt=""
-                          />
-                        </div>
-                        <a
-                          href="department-of-public-works.html"
-                          class="event-link"
-                          >Public Works</a
-                        >
-                      </div>
-                      <p>
-                        Manages the maintenance of streets and city
-                        infrastructure.
-                      </p>
-                    </div>
-                    <div class="home-3-department-info-wrap">
-                      <div class="home-3-department-head-wrap">
-                        <div class="label">Head:</div>
-                        <a
-                          href="+1%20(800)%20123-4567.html"
-                          class="head-contact-link"
-                          >Mark Dawson</a
-                        >
-                      </div>
-                      <div class="home-3-department-contact-wrapper">
-                        <div class="label">Phone:</div>
-                        <a
-                          href="tel:+1(800)123-4567"
-                          class="home-3-contact-link"
-                          >+1 (800) 123-4567</a
-                        >
-                      </div>
-                      <div class="home-3-department-contact-wrapper">
-                        <div class="label">Email:</div>
-                        <a
-                          href="mailto:information@office.com"
-                          class="home-3-contact-link"
-                          >information@office.com</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div role="listitem" class="w-dyn-item">
-                  <div
-                    data-w-id="1d75104e-5ef5-0ce3-2f30-913e6e4ac727"
-                    style="opacity: 0"
-                    class="home-3-department-card"
-                  >
-                    <div class="home-3-department-name-wrap">
-                      <div class="department-card-title">
-                        <div class="department-card-icon">
-                          <img
-                            src="images/67a4c8dcc89e958da293d6a9-67a61acafefd39c694d00ccd_carbon_tram.svg"
-                            loading="lazy"
-                            alt=""
-                          />
-                        </div>
-                        <a
-                          href="transportation-department.html"
-                          class="event-link"
-                          >Transportation</a
-                        >
-                      </div>
-                      <p>
-                        Develops and maintains public transportation options.
-                      </p>
-                    </div>
-                    <div class="home-3-department-info-wrap">
-                      <div class="home-3-department-head-wrap">
-                        <div class="label">Head:</div>
-                        <a
-                          href="+1%20(800)%20123-4567.html"
-                          class="head-contact-link"
-                          >Thomas Whitaker</a
-                        >
-                      </div>
-                      <div class="home-3-department-contact-wrapper">
-                        <div class="label">Phone:</div>
-                        <a
-                          href="tel:+1(800)123-4567"
-                          class="home-3-contact-link"
-                          >+1 (800) 123-4567</a
-                        >
-                      </div>
-                      <div class="home-3-department-contact-wrapper">
-                        <div class="label">Email:</div>
-                        <a
-                          href="mailto:information@office.com"
-                          class="home-3-contact-link"
-                          >information@office.com</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <section class="section">
       <img
         src="images/67a4c8dcc89e958da293d681-67a5e52f2cc3eeb70ba1802d_Golden%20Hour%20in%20the%20City.webp"
@@ -1620,93 +1479,7 @@
         </div>
       </div>
     </section>
-    <section class="home-3-population-section">
-      <div
-        class="w-layout-blockcontainer base-container bottom-line w-container"
-      >
-        <div class="population-block home-3">
-          <div
-            data-w-id="3bd4c7d0-a6c0-1d22-6ffc-70e761c896e1"
-            style="opacity: 0"
-            class="label light"
-          >
-            population
-          </div>
-          <div
-            data-w-id="3bd4c7d0-a6c0-1d22-6ffc-70e761c896e3"
-            style="opacity: 0"
-            class="populations-numbers-wrap"
-          >
-            <div class="population-cell">
-              <div class="population-number-wrap home-3">
-                <div class="population-top-number text-white">3</div>
-              </div>
-              <div class="population-number-wrap home-3">
-                <div class="population-bottom-number text-white">3</div>
-              </div>
-            </div>
-            <div class="population-cell">
-              <div class="population-number-wrap home-3">
-                <div class="population-top-number text-white">1</div>
-              </div>
-              <div class="population-number-wrap home-3">
-                <div class="population-bottom-number text-white">1</div>
-              </div>
-            </div>
-            <div class="population-cell">
-              <div class="population-number-wrap home-3">
-                <div class="population-top-number text-white">6</div>
-              </div>
-              <div class="population-number-wrap home-3">
-                <div class="population-bottom-number text-white">6</div>
-              </div>
-            </div>
-            <div class="population-cell">
-              <div class="population-number-wrap home-3">
-                <div class="population-top-number text-white">4</div>
-              </div>
-              <div class="population-number-wrap home-3">
-                <div class="population-bottom-number text-white">4</div>
-              </div>
-            </div>
-            <div class="population-cell">
-              <div class="population-number-wrap home-3">
-                <div class="population-top-number text-white">3</div>
-              </div>
-              <div class="population-number-wrap home-3">
-                <div class="population-bottom-number text-white">3</div>
-              </div>
-            </div>
-            <div class="population-cell">
-              <div class="population-number-wrap home-3">
-                <div class="population-top-number text-white">8</div>
-              </div>
-              <div class="population-number-wrap home-3">
-                <div class="population-bottom-number text-white">8</div>
-              </div>
-            </div>
-          </div>
-          <div
-            data-w-id="3bd4c7d0-a6c0-1d22-6ffc-70e761c8970e"
-            style="opacity: 0"
-            class="population-text-wrap"
-          >
-            <h3 class="text-white">
-              Our city's population reflects a rich blend of cultures,
-              backgrounds, and traditions, creating a dynamic and inclusive
-              environment.
-            </h3>
-            <div>
-              <a
-                href="about-us.html"
-                class="secondary-button hover-dark w-button"
-                >More about the city</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <div class="footer">
       <div class="base-container footer-container w-container">
         <div class="footer-wrapper">
